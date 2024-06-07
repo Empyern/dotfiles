@@ -1,0 +1,1 @@
+use-grammars = { only = [ "bash","css","fish","go","html","ini","json","lua","markdown","markdown.inline","python","scss","toml","xml","yaml" ] }
