@@ -7,6 +7,5 @@ Personal Dotfiles.
   [Mako Notification Daemon](https://github.com/emersion/mako)\
   [Waybar Status Bar](https://github.com/Alexays/Waybar)\
   [Mpv Media Player](https://github.com/mpv-player/mpv)\
-  [Geany Text Editor](https://github.com/geany/geany)
-
-  
+  [Geany Text Editor](https://github.com/geany/geany)\
+  [Fish Shell](https://github.com/fish-shell/fish-shell)  
