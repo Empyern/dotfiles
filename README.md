@@ -9,3 +9,4 @@ Personal Dotfiles.
   [Mpv Media Player](https://github.com/mpv-player/mpv)\
   [Geany Text Editor](https://github.com/geany/geany)\
   [Fish Shell](https://github.com/fish-shell/fish-shell)  
+  [SuperFile File manager](https://github.com/yorukot/superfile)
