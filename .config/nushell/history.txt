@@ -38,3 +38,10 @@ ls
 cd -
 ls
 stow --adopt .
+git add .
+git commit -m "nushell"
+git push origin master
+stow --adopt .
+ls
+paru -S reedline
+reedline
