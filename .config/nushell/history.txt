@@ -1,0 +1,40 @@
+ls
+ls -la
+config nu
+exa
+els
+least
+less
+fuck
+thefuck
+cd dotfiles/
+ls
+cd ~
+ls
+cd Downloads/
+ls
+ls | where name == dotfiles 
+ls - r| where name == dotfiles 
+mkdir ~/.cache/starship<\n>starship init nu | save -f ~/.cache/starship/init.nu
+echo $nu.config-path
+helix .config/nushell/config.nu
+ls
+ls -la
+rm -rf retro.frag
+ls
+cd dotfiles/
+cd -
+ls
+cd Downloads/
+ls
+cd do
+cd dotfiles/
+stow --adopt .
+git add .
+cp -r ~/.config/nushell/ ~/dotfiles/.config/
+ls
+cd .config
+ls
+cd -
+ls
+stow --adopt .
