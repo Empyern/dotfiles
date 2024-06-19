@@ -45,3 +45,58 @@ stow --adopt .
 ls
 paru -S reedline
 reedline
+ls
+version
+ls
+exit
+nu
+ls
+helix .config/nushell/config.nu
+ls
+lls
+ls
+cd .config/nushell/
+ls
+helix config.nu
+ls
+helix .config/nushell/config.nu
+ls
+echo $env.PWD
+helix config.nu
+ls
+helix config.nu
+helix .config/nushell/config.nu
+ls
+cd dotfiles/
+ls
+cd ~
+ls
+cd ~
+ls
+if 
+whereis starship.toml
+ls
+cd dotfiles/
+ls
+cd ~
+helix .config/foot/foot.ini
+ls
+paru -S carapace-bin
+mkdir ~/.cache/carapace<\n>carapace _carapace nushell | save --force ~/.cache/carapace/init.nu
+helix .config/nushell/config.nu
+ls
+cd Stash/
+ls
+helix .config/nushell/env.nu
+helix .config/foot/foot.ini
+ls
+exit
+ls
+cd Downloads/
+ls
+run
+start
+ls
+cd Downloads/
+ls
+wine
