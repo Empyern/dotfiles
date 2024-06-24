@@ -1,0 +1,58 @@
+@import url("https://aushevahmad.github.io/awesome-css/modules/fancySearch.css");
+@import url("https://codef53.github.io/CSS-Snippets/discord/AlignedChatBox.css");
+@import url("https://aushevahmad.github.io/awesome-css/modules/declutterplus.css");
+@import url("https://aushevahmad.github.io/awesome-css/modules/channeltweaks.css");
+/* Automatically resizing gif picker */
+:root {
+    /* Change me! */
+    --expression-picker-aspect-ratio: 1.125 / 1;
+}
+[class*="expressionPickerPositionLayer_"] [class*="positionContainer_"] {
+    height: calc(100vh - 128px);
+}
+[class*="expressionPickerPositionLayer_"] [class*="drawerSizingWrapper_"] {
+    max-height: 100%;
+    bottom: 0px;
+    height: auto;
+    aspect-ratio: var(--expression-picker-aspect-ratio);
+}
+
+[class*=channelTextAreaDisabled] {
+    display: none!important;
+}
+
+
+:root{
+    --highlight-select: linear-gradient(-45deg, #9366e23d 60%, #deaecf3d);
+    --highlight-icon: #deaecf;
+}
+/* channel outlines and highlighted icons */
+#app-mount .containerDefault_f6f816.selected_f6f816 .wrapper_d8bfb3 .link_d8bfb3 {
+    background: var(--highlight-select);
+    border-radius: 12px;
+    margin-left: 5px;
+}
+
+.icon_d8bfb3 {
+    width: 18px;
+    height: 18px;
+}
+
+[aria-label="Channels"] [class^="content"],
+[class^="popout-"] [class^="row-"] {
+    border-style: solid;
+    border-width: 0px;
+    border-color: transparent;
+    background-color: transparent;
+}
+
+[aria-label="Channels"] [class^="content"]:hover,
+[class^="popout-"] [class^="row-"]:hover {
+    border-color: var(--highlight-icon) !important;
+}
+
+.modeUnreadImportant_d8bfb3 .icon_d8bfb3,
+#app-mount .containerDefault_f6f816.selected_f6f816 .wrapper_d8bfb3 .icon_d8bfb3,
+#app-mount .containerDefault_f6f816:hover .wrapper_d8bfb3 .icon_d8bfb3 {
+    color: var(--highlight-icon) !important;
+}
