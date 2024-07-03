@@ -20,7 +20,7 @@
             "enabled": true
         },
         "ChatInputButtonAPI": {
-            "enabled": false
+            "enabled": true
         },
         "CommandsAPI": {
             "enabled": true
@@ -41,7 +41,7 @@
             "enabled": true
         },
         "MessagePopoverAPI": {
-            "enabled": false
+            "enabled": true
         },
         "NoticesAPI": {
             "enabled": true
@@ -484,7 +484,11 @@
             "enabled": false
         },
         "Translate": {
-            "enabled": false
+            "enabled": false,
+            "autoTranslate": false,
+            "showChatBarButton": true,
+            "receivedInput": "auto",
+            "receivedOutput": "en"
         },
         "TypingIndicator": {
             "enabled": false,
@@ -596,6 +600,9 @@
         },
         "UserSettingsAPI": {
             "enabled": true
+        },
+        "ShowAllRoles": {
+            "enabled": false
         }
     },
     "notifications": {
@@ -608,6 +615,6 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1719218393793
+        "settingsSyncVersion": 1719843284777
     }
 }
