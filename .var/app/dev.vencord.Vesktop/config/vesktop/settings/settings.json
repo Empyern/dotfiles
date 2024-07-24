@@ -2,11 +2,12 @@
     "autoUpdate": true,
     "autoUpdateNotification": true,
     "useQuickCss": true,
-    "themeLinks": [],
+    "themeLinks": [
+        "https://luckfire.github.io/amoled-cord/src/amoled-cord.css"
+    ],
     "enabledThemes": [
         "DiscordNight.theme.css",
         "modernindicators.css",
-        "amoled-cord.css",
         "DiscordReimagined.theme.css"
     ],
     "enableReactDevtools": false,
@@ -145,7 +146,7 @@
             "enabled": true
         },
         "CtrlEnterSend": {
-            "enabled": true,
+            "enabled": false,
             "submitRule": "ctrl+enter",
             "sendMessageInTheMiddleOfACodeBlock": true
         },
@@ -247,7 +248,11 @@
         },
         "LoadingQuotes": {
             "enabled": false,
-            "replaceEvents": true
+            "replaceEvents": true,
+            "enablePluginPresetQuotes": true,
+            "enableDiscordPresetQuotes": false,
+            "additionalQuotes": "",
+            "additionalQuotesDelimiter": "|"
         },
         "MemberCount": {
             "enabled": false
@@ -418,7 +423,8 @@
             "enabled": false
         },
         "SendTimestamps": {
-            "enabled": false
+            "enabled": false,
+            "replaceMessageContents": true
         },
         "ServerListIndicators": {
             "enabled": false
@@ -484,7 +490,7 @@
             "enabled": false
         },
         "Translate": {
-            "enabled": false,
+            "enabled": true,
             "autoTranslate": false,
             "showChatBarButton": true,
             "receivedInput": "auto",
@@ -523,7 +529,7 @@
             "enabled": false
         },
         "ValidReply": {
-            "enabled": false
+            "enabled": true
         },
         "ValidUser": {
             "enabled": false
@@ -603,6 +609,12 @@
         },
         "ShowAllRoles": {
             "enabled": false
+        },
+        "ConsoleJanitor": {
+            "enabled": false
+        },
+        "MentionAvatars": {
+            "enabled": false
         }
     },
     "notifications": {
@@ -615,6 +627,6 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1719843284777
+        "settingsSyncVersion": 1721657057995
     }
 }

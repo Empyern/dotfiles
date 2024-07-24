@@ -56,3 +56,8 @@
 #app-mount .containerDefault_f6f816:hover .wrapper_d8bfb3 .icon_d8bfb3 {
     color: var(--highlight-icon) !important;
 }
+
+/* hide chatbox if no permission to talk in channel */
+[class*=channelTextAreaDisabled] {
+    display: none!important;
+}
