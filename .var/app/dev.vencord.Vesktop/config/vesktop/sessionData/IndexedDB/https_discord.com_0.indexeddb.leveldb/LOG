@@ -1,0 +1,2 @@
+2024/08/02-15:32:52.716 17 Creating DB /home/fern/.var/app/dev.vencord.Vesktop/config/vesktop/sessionData/IndexedDB/https_discord.com_0.indexeddb.leveldb since it was missing.
+2024/08/02-15:32:52.739 17 Reusing MANIFEST /home/fern/.var/app/dev.vencord.Vesktop/config/vesktop/sessionData/IndexedDB/https_discord.com_0.indexeddb.leveldb/MANIFEST-000001
