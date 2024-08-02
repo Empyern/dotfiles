@@ -1,6 +1,0 @@
-2024/08/02-16:23:16.538 15 Reusing MANIFEST /home/fern/.var/app/dev.vencord.Vesktop/config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
-2024/08/02-16:23:16.541 15 Recovering log #4
-2024/08/02-16:23:16.542 15 Reusing old log /home/fern/.var/app/dev.vencord.Vesktop/config/vesktop/sessionData/Local Storage/leveldb/000004.log 
-2024/08/02-16:35:13.367 16 Level-0 table #8: started
-2024/08/02-16:35:13.376 16 Level-0 table #8: 45155 bytes OK
-2024/08/02-16:35:13.394 16 Delete type=0 #4
