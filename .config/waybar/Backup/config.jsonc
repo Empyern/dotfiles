@@ -1,0 +1,20 @@
+{
+    "layer": "top",
+    "position":"bottom",
+    "modules-left": ["hyprland/workspaces","hyprland/window"],
+    "modules-center": ["mpris"],
+    "modules-right": ["wireplumber","clock","tray"],
+    "clock": {
+    "tooltip-format": "<tt>{calendar}</tt>",
+    "format-alt": "  {:%a, %d %b %Y}",
+    "format": "  {:%I:%M %p}"
+	  },
+    "mpris": {
+    "format": "{title} - {artist}",
+    "format-paused": "{title} - {artist}",
+    "ignored-players": ["mpv", "firefox", ""]
+    },
+    "wireplumber": {
+    "format": "{volume}%",
+	  }
+}
