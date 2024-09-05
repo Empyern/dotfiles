@@ -1,1 +1,8 @@
 use-grammars = { only = [ "bash","css","fish","go","html","ini","json","lua","markdown","markdown.inline","python","scss","toml","xml","yaml" ] }
+#Python
+[[language]]
+name = "python"
+language-servers = ["pylsp"]
+[language-server.pylsp.config.pylsp]
+plugins.pyls_mypy.enabled = true
+plugins.pyls_mypy.live_mode = true
